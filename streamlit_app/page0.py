@@ -13,7 +13,7 @@ col1, col2, col3 = st.columns([1, 4, 1])
 # Colonne gauche : Image
 with col1:
     st.image(
-        "https://github.com/Soumabkar/films-analytics/blob/main/streamlit_app/photo_profil.png",  # Remplacez par le chemin de votre image
+        "https://github.com/Soumabkar/films-analytics/blob/main/streamlit_app/photo_profil.png?raw=true",  # Remplacez par le chemin de votre image
         width=80,     # Ajustez la taille si nécessaire
         use_container_width=False,
     )
@@ -46,11 +46,11 @@ st.write(" ")
 # Titre
 st.markdown("# **Phase 1 : Développeur Python & Architecte API**")
 # Afficher l'image séparément
-st.image("https://raw.githubusercontent.com/JosueAfouda/films-analytics/main/streamlit_app/architecture.png", use_container_width=True)
+st.image("https://github.com/Soumabkar/films-analytics/blob/main/streamlit_app/architecturephase.png?raw=true", use_container_width=True)
 
 st.markdown(
         """
-        <a href="https://github.com/JosueAfouda/movie-backend" target="_blank">
+        <a href="https://github.com/Soumabkar/movie-backend" target="_blank">
             <button style="background-color: #28a745; color: white; padding: 10px 20px; border: none; border-radius: 8px; font-size: 16px;">
                 📦 Cliquer pour voir le Code de la Phase 1
             </button>
@@ -67,11 +67,11 @@ st.write(" ")
 # Titre
 st.markdown("# **Phase 2 : Data Analyst - Exploration et Visualisation**")
 # Afficher l'image séparément
-st.image("https://raw.githubusercontent.com/JosueAfouda/films-analytics/main/streamlit_app/architecturephase.png", use_container_width=True)
+st.image("https://github.com/Soumabkar/films-analytics/blob/main/streamlit_app/architecturephase.png?raw=true", use_container_width=True)
 
 st.markdown(
         """
-        <a href="https://github.com/JosueAfouda/films-analytics" target="_blank">
+        <a href="https://github.com/Soumabkar/films-analytics" target="_blank">
             <button style="background-color: #28a745; color: white; padding: 10px 20px; border: none; border-radius: 8px; font-size: 16px;">
                 📊 Cliquer pour voir le Code de la Phase 2
             </button>
