@@ -13,7 +13,7 @@ col1, col2, col3 = st.columns([1, 4, 1])
 # Colonne gauche : Image
 with col1:
     st.image(
-        "https://raw.githubusercontent.com/JosueAfouda/films-analytics/main/streamlit_app/linkedin_profil.png",  # Remplacez par le chemin de votre image
+        "https://github.com/Soumabkar/films-analytics/blob/main/streamlit_app/photo_profil.png",  # Remplacez par le chemin de votre image
         width=80,     # Ajustez la taille si nécessaire
         use_container_width=False,
     )
@@ -32,8 +32,8 @@ with col3:
     st.markdown(
         """
         <div style='text-align: right;'>
-            <a href="https://www.linkedin.com/in/josu%C3%A9-afouda/" target="_blank" style='text-decoration: none; color: #0077b5;'>
-                <strong>Josué AFOUDA</strong>
+            <a href="https://www.linkedin.com/in/abdoul-karim-soumahoro-81b498143/" target="_blank" style='text-decoration: none; color: #0077b5;'>
+                <strong>Abdoul Karim SOUMAHORO</strong>
             </a>
         </div>
         """,
